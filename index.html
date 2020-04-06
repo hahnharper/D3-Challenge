@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="d3Style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>D3Times</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div class="article">
+		  <h2>Correlation Between Poverty and Access to Healthcare</h2>
+		  <br>
+          <p>In this activity, we are analysing how poverty impacts a person's access to healthcare across the United States.
+			The percentage of those considered to be "in poverty" and those who lack access to healthcare is measured at a state-level. 
+			Each circle on the graph represents one of the 50 states. When the user hovers over a circle, a pop-up will give them the full name
+			of the state and the numerical values of the "in poverty" and "lack of healthcare" percentages. </p>
+
+           <p>Based off our data and the graphic, it appears a positive correlation exisits between poverty and lack of access to healthcare. We can also
+			  see that these numbers differ depending on the state. For example, Massachusetts has a higher percent of people in poverty compared to New Hampshire.
+			  However, New Hampshire has more people who lack access to healthcare than Massachusetts. This could mean Massachusetts dedicates more economic resources
+			   towards funding health-based initiatives, or New Hampshire doesn't have as strong a health infrastructure as Massachusetts.
+			
+			<p>When reading this graph, it is important to remember the United States does not have a universal healthcare system. One's ability to access healthcare 
+				and the quality of this healthcare is highly dependent on socioeconomic status. Health care systems across states also vary, meaning some
+				states are better equipped to provide the local population with the healthcare they need while others cannot.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <p>The Coding Boot Camp&copy;2019</p>
+  </div>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="app.js"></script>
+  <script src="d3-tip.js"></script>
+
+</body>
+
+</html>
